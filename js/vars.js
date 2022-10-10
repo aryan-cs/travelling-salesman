@@ -16,7 +16,7 @@ window.addEventListener("resize", function (ignored) {
 var title = "travelling salesman";
 var version = "version 1.1.6";
 
-window.onload = function () { document.title = title; document.getElementById("title").innerHTML = title + "  <span style=\"font-size: 30px;\"> " + version + "<\span>"; }
+window.onload = function () { document.title = title; document.getElementById("title").innerHTML = "<span style=\"font-size: 1em;\"> " + title + "<\span> <span style=\"font-size: 0.5em;\"> " + version + "<\span>"; }
 
 function createInputAndButton (buttonMessage, createMessage) {
 
@@ -91,7 +91,7 @@ const ACCENT_1 = getComputedStyle(document.querySelector(":root")).getPropertyVa
 const ACCENT_2 = getComputedStyle(document.querySelector(":root")).getPropertyValue("--accent-2");
 
 // project
-const CITY_COUNT = 7;
+const CITY_COUNT = 8;
 const CITY_SIZE = 15;
 const OFFSET = WIDTH / 2;
 
