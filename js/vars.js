@@ -16,7 +16,7 @@ window.addEventListener("resize", function (ignored) {
 var title = "travelling salesman";
 var version = "version 1.1.6";
 
-window.onload = function () { document.title = title; document.getElementById("title").innerHTML = "<span style=\"font-size: 1em;\"> " + title + "<\span> <span style=\"font-size: 0.5em;\"> " + version + "<\span>"; }
+// window.onload = function () { document.title = title; document.getElementById("title").innerHTML = "<span style=\"font-size: 1em;\"> " + title + "<\span> <span style=\"font-size: 0.5em;\"> " + version + "<\span>"; }
 
 function createInputAndButton (buttonMessage, createMessage) {
 
