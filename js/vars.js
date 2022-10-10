@@ -2,7 +2,7 @@
 var canvas;
 const SCALE = 1.6;
 const VARIABLE_SCALING = false;
-const WIDTH = 1200, HEIGHT = 600;
+const WIDTH = 800, HEIGHT = 500;
 
 function limit (value, min, max) { return Math.min(Math.max(value, min), max); }
 
@@ -14,7 +14,7 @@ window.addEventListener("resize", function (ignored) {
 
 // site
 var title = "travelling salesman";
-var version = "version 1.1.5";
+var version = "version 1.1.6";
 
 window.onload = function () { document.title = title; document.getElementById("title").innerHTML = title + "  <span style=\"font-size: 30px;\"> " + version + "<\span>"; }
 
@@ -91,7 +91,7 @@ const ACCENT_1 = getComputedStyle(document.querySelector(":root")).getPropertyVa
 const ACCENT_2 = getComputedStyle(document.querySelector(":root")).getPropertyValue("--accent-2");
 
 // project
-const CITY_COUNT = 6;
+const CITY_COUNT = 7;
 const CITY_SIZE = 15;
 const OFFSET = WIDTH / 2;
 

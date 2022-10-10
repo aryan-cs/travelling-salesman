@@ -16,7 +16,7 @@ export default function City (name, x, y, p5) {
         p5.textSize(25);
         p5.noStroke();
         p5.text(this.name, this.x, this.y - 25);
-        p5.text(this.name, this.x + OFFSET, this.y - 25);
+        // p5.text(this.name, this.x + OFFSET, this.y - 25);
 
     }
 

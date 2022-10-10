@@ -4,9 +4,7 @@ export default class BruteForce {
 
     new p5 (function (p5) {
 
-      window.addEventListener("resize", function (ignored) {
-
-      }, true);
+      window.addEventListener("resize", function (ignored) {}, true);
 
       var canv, defaultFont = p5.loadFont("assets/fonts/default.ttf");
       var order = [], bestOrder = [], bestDistance = Number.MAX_VALUE;
@@ -52,7 +50,7 @@ export default class BruteForce {
         elapsedTime = Date.now() - startTime;
         p5.text("brute force algorithm [" + (elapsedTime / 1000).toFixed(3) + " sec]", 20, 40);
         p5.textAlign(p5.RIGHT);
-        p5.textSize(100);
+        p5.textSize(50);
         p5.text(((done / total) * 100).toFixed(CITY_COUNT / 3) + "%", WIDTH - 30, HEIGHT - 20);
 
         if (done === total) { clearInterval(interval); p5.noLoop(); }

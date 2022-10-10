@@ -31,7 +31,7 @@ export default function Place (count) {
 
         for (var index = 0; index < list.length - 1; index++) {
 
-            p5.stroke(89, 255, 106); p5.strokeWeight(3);
+            p5.stroke(255, 217, 102); p5.strokeWeight(3);
 
             p5.line(this.cities[list[index]].x + OFFSET, this.cities[list[index]].y, this.cities[list[(index + 1)]].x + OFFSET, this.cities[list[(index + 1)]].y);
 
