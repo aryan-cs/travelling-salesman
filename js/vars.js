@@ -91,7 +91,7 @@ const ACCENT_1 = getComputedStyle(document.querySelector(":root")).getPropertyVa
 const ACCENT_2 = getComputedStyle(document.querySelector(":root")).getPropertyValue("--accent-2");
 
 // project
-const CITY_COUNT = 8;
+const CITY_COUNT = 7;
 const CITY_SIZE = 15;
 const OFFSET = WIDTH / 2;
 
